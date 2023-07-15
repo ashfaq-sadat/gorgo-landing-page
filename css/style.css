@@ -61,12 +61,13 @@ body {
 	width: 200px;
 	height: 52px;
 	background-color: #ff6162;
-	color: #ffffff;
+
 	font-weight: 700;
 	border-radius: 5px;
 	border: solid #ff6162 1px;
 }
 #call-button a {
 	text-decoration: none;
+	color: #ffffff;
 }
 /* header end */
