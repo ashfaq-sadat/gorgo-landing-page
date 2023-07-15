@@ -66,4 +66,7 @@ body {
 	border-radius: 5px;
 	border: solid #ff6162 1px;
 }
+#call-button a {
+	text-decoration: none;
+}
 /* header end */
