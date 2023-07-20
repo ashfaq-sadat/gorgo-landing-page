@@ -1,28 +1,36 @@
 /* common CSS Start */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-
+html {
+	scroll-behavior: smooth;
+}
 body {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-family: sans-serif;
+
 	font-size: 16px;
 	color: #292640;
 }
 
 /* common CSS ends*/
 /* Header Start */
+.header {
+	padding-bottom: 40px;
+}
 .container {
+	width: 80%;
+	margin: 0px auto;
 	overflow: hidden;
 	/* border: 2px red solid; */
 }
 
 .logo {
-	width: 11%;
+	width: 14%;
 	/* border: 1px pink solid; */
 	float: left;
 }
 .logo img {
 	width: 100%;
+	padding-top: 2px;
 }
 
 /* .main-menu {
@@ -30,13 +38,13 @@ body {
 } */
 
 .menu {
-	width: 80%;
+	width: 85%;
 	/* border: 1px rgb(17, 12, 13) solid; */
 	float: right;
 }
 
 .menu-bar {
-	width: 80%;
+	width: 70%;
 	float: left;
 	/* border: 1px skyblue solid; */
 }
@@ -44,16 +52,21 @@ body {
 .menu-list li {
 	list-style: none;
 	display: inline-block;
-	padding: 0 30px;
+	margin: 0;
+	padding: 0px 0px;
 }
 
 .menu-list li a {
 	font-weight: 700;
 	text-decoration: none;
 	color: #434057;
+	padding: 0px 30px;
 }
+.menu-list li a:first-child {
+	padding-left: 0px;
+}
+
 .call-button {
-	width: 18%;
 	float: right;
 	/* border: 1px skyblue solid; */
 }
@@ -71,3 +84,89 @@ body {
 	color: #ffffff;
 }
 /* header end */
+
+/* banner section starts  */
+.banner {
+	padding-top: 80px;
+	/* border: #292640 solid; */
+}
+.banner-text {
+	width: 50%;
+	float: left;
+	/* padding-top: 20px; */
+	/* border: #292640 solid; */
+	box-sizing: border-box;
+
+	font-size: 35px;
+}
+.banner-heading {
+	font-size: 50px;
+	margin: 0;
+	padding: 48px 100px 10px 20px;
+}
+.banner-description {
+	font-size: 18px;
+	line-height: 20px;
+	color: #a2a4bf;
+	font-weight: 600px;
+	padding: 0px 20px 0 20px;
+}
+.banner-image {
+	width: 50%;
+	float: right;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.banner-image img {
+	width: 100%;
+}
+.banner-icon {
+	padding-left: 20px;
+}
+/* banner sections ends */
+
+/* demo section starts */
+#demo-container {
+	width: 97%;
+	padding-top: 250px;
+}
+.demo-text {
+	text-align: center;
+}
+.demo-heading {
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700px;
+}
+.demo-paragraph {
+	padding: 0px 400px 20px 400px;
+	font-family: serif;
+	font-style: italic;
+	font-size: 18px;
+	color: #72808e;
+	font-weight: 700px;
+}
+
+.demo-items {
+	width: 24%;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 1%;
+
+	/* transition-duration: 0.33s; */
+	transition-delay: 0.1s;
+}
+.demo-items img {
+	width: 100%;
+	opacity: 0.8;
+}
+.demo-items img:hover {
+	opacity: 1;
+}
+.demo-captions {
+	font-size: 18px;
+	text-align: center;
+	color: #434749;
+}
+
+/* demo section ends */
