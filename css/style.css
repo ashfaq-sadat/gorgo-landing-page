@@ -1,11 +1,12 @@
 /* common CSS Start */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Playfair+Display:wght@400;700;900&display=swap");
 html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 
 	font-size: 16px;
 	color: #292640;
@@ -141,7 +142,7 @@ body {
 }
 .demo-paragraph {
 	padding: 0px 400px 20px 400px;
-	font-family: serif;
+	font-family: "Playfair Display", serif;
 	font-style: italic;
 	font-size: 18px;
 	color: #72808e;
@@ -187,6 +188,7 @@ body {
 
 .feature-card {
 	width: 30%;
+	height: 250px;
 	float: left;
 	margin: 0 15px;
 
@@ -202,16 +204,23 @@ body {
 	margin-right: 15px;
 }
 .feature-image {
-	padding: 20px 0;
+	padding: 5px 0;
 }
 .feature-card h2 {
-	font-size: 12px;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 16px;
 }
 .feature-card p {
-	font-size: 10px;
+	margin: 0;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #7b7e7f;
 }
 .feature-card h2,
 .feature-card p {
+	font-family: "Montserrat", sans-serif;
 	text-align: center;
 }
 
