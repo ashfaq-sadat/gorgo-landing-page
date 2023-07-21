@@ -19,7 +19,7 @@ body {
 }
 .container {
 	width: 80%;
-	margin: 0px auto;
+	margin: 0 auto;
 	overflow: hidden;
 	/* border: 2px red solid; */
 }
@@ -89,15 +89,11 @@ body {
 /* banner section starts  */
 .banner {
 	padding-top: 80px;
-	/* border: #292640 solid; */
 }
 .banner-text {
 	width: 50%;
 	float: left;
-	/* padding-top: 20px; */
-	/* border: #292640 solid; */
 	box-sizing: border-box;
-
 	font-size: 35px;
 }
 .banner-heading {
@@ -181,7 +177,6 @@ body {
 
 .row {
 	margin: 30px 15%;
-	/* border: black solid; */
 	overflow: hidden;
 	box-sizing: border-box;
 }
